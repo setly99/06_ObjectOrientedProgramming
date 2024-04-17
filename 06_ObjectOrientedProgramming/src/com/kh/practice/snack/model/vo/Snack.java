@@ -1,11 +1,11 @@
 package com.kh.practice.snack.model.vo;
 
 public class Snack {
-	String kind;
-	String name;
-	String flavor;
-	int numOf;
-	int price;
+	private String kind;
+	private String name;
+	private String flavor;
+	private int numOf;
+	private int price;
 	
 	public Snack() {
 		

@@ -32,6 +32,8 @@ public class SnackMenu {
 		System.out.println(scr.saveData(kind, name, flavor, numOf, price));
 		
 		System.out.print("저장한 정보를 확인하시겠습니까?(y/n) : ");
+		//String answer = sc.next();
+		//answer.equalsIgnoreCase("Y")//대소문자무시
 		char yesNo = sc.next().charAt(0);
 		
 		if(yesNo == 'y') {
